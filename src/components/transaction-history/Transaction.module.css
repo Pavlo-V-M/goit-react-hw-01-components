@@ -1,0 +1,30 @@
+
+.transactionHistory {
+  outline: 2px solid red;
+  outline-offset: -2px;
+
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  /* border: 3px solid purple; */
+}
+
+.transactionHistory th {
+  border: 1px solid #2a2a2a;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  background-color: rgb(168, 237, 237);
+}
+
+.transactionHistory td {
+  border: 1px solid #2a2a2a;
+  text-align: center;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
