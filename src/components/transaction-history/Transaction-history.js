@@ -7,25 +7,27 @@ const TransactionHistory = (props) => {
   const { items } = props;
 
   return (
-    <table className={css.transactionHistory}>
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
-        </tr>
-      </thead>
+    <div>
+      <table className={css.transactionHistory}>
+        <thead>
+          <tr>
+            <th>Type</th>
+            <th>Amount</th>
+            <th>Currency</th>
+          </tr>
+        </thead>
 
-      <tbody>
-        {items.map(data => (
-          <tr key={data.id}>
-          <td>{data.type}</td>
-          <td>{data.amount}</td>
-          <td>{data.currency}</td>
-        </tr>
-        ))}               
-      </tbody>
-    </table>
+        <tbody>
+          {items.map(data => (
+            <tr key={data.id}>
+              <td>{data.type}</td>
+              <td>{data.amount}</td>
+              <td>{data.currency}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
   );
 };
 

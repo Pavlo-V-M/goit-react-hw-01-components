@@ -1,13 +1,19 @@
+div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 
 .transactionHistory {
   outline: 2px solid red;
   outline-offset: -2px;
 
-  /* padding-top: 10px;
-  padding-bottom: 10px; */
+  width: 767px;
+
+  margin-left: auto;
+  margin-right: auto;
 
   table-layout: fixed;
-  width: 100%;
   border-collapse: collapse;
   /* border: 3px solid purple; */
 }
@@ -28,3 +34,6 @@
   padding-bottom: 10px;
 }
 
+tbody tr:nth-child(2n) {
+  background-color: aliceblue;
+}

@@ -5,15 +5,21 @@
 
   padding-top: 10px;
   padding-bottom: 10px;
+
+  background-color: aliceblue;
 }
 
 .description {
   outline: 2px solid red;
   outline-offset: -2px;
 
-  /* width: 240px;
+  width: 320px;
+
   margin-left: auto;
-  margin-right: auto; */
+  margin-right: auto;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
 
   display: flex;
   flex-direction: column;
@@ -21,6 +27,8 @@
   gap: 10px;
 
   margin-bottom: 10px;
+
+  background-color: white;
 }
 
 .avatar {
@@ -29,7 +37,7 @@
 
   border-radius: 50%;
 
-  width: 20%;
+  width: 75%;
   
 }
 
@@ -58,21 +66,31 @@
   outline: 2px solid red;
   outline-offset: -2px;
 
+  width: 320px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   gap: 20px;
 
-  
-  /* margin-left: auto;
-  margin-right: auto; */
+  background-color: white;
+}
+
+li {
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 .label {
-  outline: 2px solid red;
-  outline-offset: -2px;
+  margin-right: 10px;
 }
 
-.quantity {
+/* .quantity {
   outline: 2px solid red;
   outline-offset: -2px;
-}
+} */
